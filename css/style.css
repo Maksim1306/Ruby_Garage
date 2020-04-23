@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 1020px;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 160px;
+}
+
+
+}
+.name_todo {
+  background-color: #4568a5;
+  border-top: 1px solid #181818;
+  border-left: 1px solid #0c0c0c;
+  border-right: 1px solid #131313;
+  border-bottom: 1px solid #131313;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: rgb(255, 255, 255);
+  font-size: 18px;
+  transition: 0.2s;
+
+  border: 2px;
+  border-color: 1px;
+  border: none;
+
+  color: #1a1717;
+
+  width: 700px;
+  padding-left: 65px;
+  padding-right: 145px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #fcfed5;
+}
+
+.border__top {
+  border-top: 1px solid #e7ebea;
+  border-left: 1px solid #e7ebea;
+  border-right: 1px solid #e7ebea;
+}
+
+.border__botton {
+  border-top: 1px solid #e7ebea;
+  border-bottom: 1px solid #e7ebea;
+  border-left: 1px solid #e7ebea;
+  border-right: 1px solid #e7ebea;
+}
